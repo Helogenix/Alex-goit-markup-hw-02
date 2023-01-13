@@ -1,10 +1,16 @@
+:root {
+  --primary-text-color: rgb(255, 255, 255);
+  --title-text-color: 
+}
+
+
 /**
   |============================
   | header
   |============================
 */
 .logo {
-  color: 4D5AE5;
+  color: #4D5AE5;
   width: 44px;
   height: 24px;
 
@@ -13,6 +19,11 @@
   font-weight: 800;
   font-size: 18px;
   line-height: 24px;
+  text-decoration: none;
+  
+}
+.span {
+  color: #2e2f42;
 }
 .contact {
   font-family: 'Roboto';
@@ -22,6 +33,7 @@
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #434455;
+  text-decoration: none;
 }
 .menu-nav {
   font-family: 'Roboto';
@@ -38,14 +50,16 @@
   |============================
 */
 .body {
-  background-color: #ffffff;
+  background-color: rgb(255, 255, 255);
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1, 5;
   letter-spacing: 0, 02em;
   color: #434455;
+  text-decoration: none;
 }
+
 /**
   |============================
   | hero-section
@@ -63,13 +77,31 @@
   color: #ffffff;
 }
 .hero-button {
-  position: absolute;
   width: 169px;
   height: 56px;
-  left: 636px;
-  top: 428px;
-
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+}
+.hero-button:hover
+.hero-button:focus
+.filter-buttons:hover
+.filter-buttons:focus
+
+.filter-buttons {
+  width: 116px;
+  height: 48px;
+  background: #F4F4FD;
+}
+
+
+
+/**
+  |============================
+  | footer-section
+  |============================
+*/
+.footer-section{
+  background-color:#2e2f42 ;
+  color: #E7E9FC;
 }
