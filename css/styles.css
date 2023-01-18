@@ -66,6 +66,8 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
+  text-decoration: none;
+  letter-spacing: 0.02em;
 }
 
 .nav a:hover,
@@ -74,11 +76,31 @@ body {
   color: var(--pressed-state);
 }
 
+.nav-item {
+  color: var(--brand-color);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.nav-item:hover,
+.nav-item:focus,
+.nav-item:active {
+  color: var(--pressed-state);
+}
+
+
 .nav-portfolio:visited,
 .nav-studio:visited {
   color: var(--pressed-state);
+  text-decoration: none;
 }
-.nav-b :focus
+.nav-portfolio {
+  text-decoration: none;
+}
+.nav-b:focus
 .nav-b:active
 .nav-b:hover {
 color: var(--pressed-state) ;
@@ -90,6 +112,10 @@ color: var(--pressed-state) ;
   color: var(--text-color);
   text-decoration: none;
 }
+.nav-item {
+  text-decoration: none;
+}
+
 
 .auth-nav a:hover,
 .auth-nav a:focus {
@@ -129,11 +155,13 @@ color: var(--pressed-state) ;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .advant-descr {
   line-height: 1.5;
   color: var(--text-color);
+  letter-spacing: 0.02em;
 }
 
 /* about us */
@@ -142,6 +170,7 @@ color: var(--pressed-state) ;
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
 }
 
 /* our team */
@@ -153,12 +182,14 @@ color: var(--pressed-state) ;
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
 }
 
 .team-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing:0.02em ;
 }
 
 .team-position {
@@ -190,11 +221,13 @@ color: var(--pressed-state) ;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .prooject-descr {
   color: var(--text-color);
   line-height: 1.5;
+  
 }
 /* footer */
 .footer {
