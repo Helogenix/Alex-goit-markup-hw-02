@@ -11,6 +11,7 @@
   --primary-brand-color: #4d5ae5;
   --pressed-state: #404bbf;
   --white-color: #ffffff;
+  --project-gap: 20px;
 }
 
 ul {
@@ -246,4 +247,56 @@ color: var(--pressed-state) ;
 .footer-descr {
   line-height: 1.5;
   color: var(--accent-text-color);
+}
+
+/**
+  |============================
+  | nav-container
+  |============================
+*/
+.container-nav {
+  display: flex;
+  width: 586px;
+  
+
+}
+
+
+/**
+  |============================
+  | card-set
+  |============================
+*/
+
+
+img {
+display: block;
+max-width: 100%;
+}
+
+.container {
+  width:1128px ;
+  padding-left: 15px;
+  padding-right: 15px;
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project {
+  padding:0 ;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-left: calc(-1 *var(--project-gap) ) ;
+  margin-right: calc(-1 *var(--project-gap) ) ;;
+  row-gap: 48px;
+
+}
+.project > .item {
+  flex-basis: calc(100% / 3 - var(--project-gap));
+  margin-left: var(--project-gap);
+  margin-top: var(--project-gap);
 }
